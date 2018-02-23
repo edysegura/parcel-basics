@@ -4,6 +4,7 @@
 # Parcel
 dev
 .cache
+dist
 
 ### Node ###
 # Logs
