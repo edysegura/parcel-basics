@@ -1,0 +1,21 @@
+{
+  "name": "parcel-basics",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel src/index.html -d dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edysegura/parcel-basics.git"
+  },
+  "author": "Edy Segura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edysegura/parcel-basics/issues"
+  },
+  "homepage": "https://github.com/edysegura/parcel-basics#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.6.2",
+    "rxjs": "^5.5.6"
+  }
+}
