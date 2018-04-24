@@ -1,14 +1,13 @@
 {
   "name": "without-dependency",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel src/index.html -d dev --open",
+    "build": "parcel build src/index.html"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Edy Segura",
+  "license": "MIT",
   "dependencies": {
     "parcel-bundler": "^1.7.1"
   }
