@@ -4,7 +4,7 @@ import { groupBy } from 'lodash/collection'
 import people from './people'
 
 const managerGroups = groupBy(people, 'manager')
-const p = document.querySelector('output')
+const output = document.querySelector('code')
 const jsonText = JSON.stringify(managerGroups, null, 2)
 
-p.innerHTML = `<pre>${jsonText}</pre>`
+output.textContent = jsonText
