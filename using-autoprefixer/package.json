@@ -1,0 +1,13 @@
+{
+  "name": "using-autoprefixer",
+  "scripts": {
+    "start": "parcel ./src/index.html -d dev --open",
+    "build": "parcel build ./src/index.html"
+  },
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0",
+    "sass": "^1.15.2"
+  }
+}

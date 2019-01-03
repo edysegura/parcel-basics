@@ -1,0 +1,16 @@
+$default-color: gray;
+
+div {
+  input {
+    border: 1px dashed $default-color;
+    padding: 0.2rem;
+    &:focus {
+      border-color: blue;
+    }
+  }
+
+  input::placeholder {
+    color: $default-color;
+    text-transform: capitalize;
+  }
+}
