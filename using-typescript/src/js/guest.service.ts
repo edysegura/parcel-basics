@@ -17,7 +17,7 @@ export class GuestService {
   }
 
   private mapToGuest(item: any): Guest {
-    const guest: any = {
+    const guest: Guest = {
       id: item.id,
       name: `${item.firstName} ${item.lastName}`,
       email: item.email,
