@@ -1,11 +1,5 @@
-import { guestData as data } from "../assets/guest-data";
-
-interface Guest {
-  id: number
-  name: string
-  email: string
-  genre: string
-}
+import { guestData as data } from '../assets/guest-data'
+import { Guest } from './guest.model';
 
 export class GuestService {
   list: Guest[]
@@ -23,7 +17,7 @@ export class GuestService {
   }
 
   private mapToGuest(item: any): Guest {
-    let guest: any = {};
+    let guest: any = {}
     guest.id = item.id
     guest.name = `${item.firstName} ${item.lastName}`
     guest.email = item.email
