@@ -1,4 +1,4 @@
-import { guestData as data } from "../assets/guest-list";
+import { guestData as data } from "../assets/guest-data";
 
 interface Guest {
   id: number
