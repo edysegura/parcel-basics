@@ -10,10 +10,10 @@
   "author": "Edy Seguera",
   "license": "MIT",
   "dependencies": {
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.1",
     "moment": "^2.22.1"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.10.3"
+    "parcel-bundler": "^1.12.3"
   }
 }
