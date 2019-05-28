@@ -1,0 +1,11 @@
+{
+  "name": "using-dotenv",
+  "private": true,
+  "scripts": {
+    "start": "parcel src/index.html -d dev --open",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
