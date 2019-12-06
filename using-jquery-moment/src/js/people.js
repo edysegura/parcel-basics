@@ -1,4 +1,4 @@
-const people = [
+export const people = [
   {
     manager: 'Jen',
     name: 'Bob'
@@ -24,5 +24,3 @@ const people = [
     name: 'Edy Segura'
   }
 ];
-
-export default people
