@@ -10,7 +10,7 @@
   "author": "Edy Seguera",
   "license": "MIT",
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "moment": "^2.22.1"
   },
   "devDependencies": {
