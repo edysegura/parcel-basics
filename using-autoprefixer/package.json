@@ -7,8 +7,8 @@
   "private": true,
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^9.4.10",
-    "parcel-bundler": "^1.12.4",
-    "sass": "^1.15.2"
+    "autoprefixer": "^9.8.6",
+    "parcel-bundler": "^1.9.4",
+    "sass": "^1.37.5"
   }
 }
